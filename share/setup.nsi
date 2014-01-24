@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.2
+!define VERSION 0.1.0.0
 !define COMPANY "Scamcoin project"
 !define URL http://www.scamcoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile scamcoin-0.8.6.2-win32-setup.exe
+OutFile scamcoin-0.1.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Scamcoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.2
+VIProductVersion 0.1.0.0
 VIAddVersionKey ProductName Scamcoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"

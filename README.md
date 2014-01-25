@@ -19,7 +19,9 @@ Compiling under Linux
 ---------------------
 
 qmake
+
 make
+
 (LINUX FTW)
 
 License
